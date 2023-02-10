@@ -11,10 +11,10 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Center(
-          child: Text
-          ("CockTail App"),
+          child: Text("CockTail App"),
         ),
       ),
+      body: const Center(child: Text("Namste Dostonn")),
     );
   }
 }
