@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 // import 'package:flutter/cupertino.dart';//ios 
-import 'package:flutter_application_1/homepage.dart';
+// import 'package:flutter_application_1/homepage.dart';
+import 'package:flutter_application_1/homepage1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.orange,
       ),
-      home: HomePage(),
+      home: const HomePage1(),
     );
   }
 }
